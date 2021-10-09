@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    /*border: 1px solid red;*/
+    font-family: 'Red Hat Display', sans-serif;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E0E8FF;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    /*background-blend-mode: multiply;*/
+
+}
+
+.container {
+    width: 450px;
+    height: 700px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.illustration {
+    height: 220px;
+    width: 450px;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url('./images/illustration-hero.svg');
+}
+.title {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 37px;
+    color: rgba(31, 46, 85, 1);
+    margin-top: 45px;
+}
+p {
+    height: 78px;
+    width: 354px;
+    margin-top: 17px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 26px;
+    color: rgba(113, 127, 166, 1);
+
+
+}
+.plan {
+    height: 98px;
+    width: 354px;
+    border-radius: 11px;
+    background: rgba(247, 249, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 48px;
+    height: 48px;
+}
+.left{
+    height: 48px;
+    width: 117px;
+    margin-left: 20px;
+    font-weight: 900;
+    line-height: 21.17px;
+}
+.price {
+    font-weight: 500;
+    color: rgba(113, 127, 166, 1);
+}
+.right {
+    height: 19px;
+    width: 52px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(56, 42, 225, 1);
+    text-decoration: underline;
+    margin-left: 70px;
+}
+.payment {
+    height: 50px;
+    width: 354px;
+    margin-top: 32px;
+    background: rgba(56, 42, 225, 1);
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.cancel {
+    height: 20px;
+    width: 115px;
+    margin-top: 32px;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(113, 127, 166, 1);
+}
